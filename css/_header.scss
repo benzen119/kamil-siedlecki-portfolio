@@ -1,0 +1,73 @@
+
+//styles for website header
+header.start-header{
+    background-image: url('../assets/header.jpg');
+    background-position: center center;
+    background-size: cover;
+    padding-top: 160px;
+    padding-bottom: calc(160px - 56px);
+    margin-top: -60px;
+    position: relative;
+
+    hr {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        height: 3px;
+        width: 13%;
+   }
+
+   .col-lg-8{
+       margin-top: 38px;
+       display: none;
+   }
+
+    h2 {
+        font-size: 32px;
+        margin-top: 30px;
+        span{
+            color: $light-blue;
+        }
+    }
+
+    p.name {
+        font-weight: 400;
+        font-size: 60px !important;
+
+        @media (max-width: 768px) {
+            font-size: 45px !important;         
+        }
+
+        @media (max-width: 576px) {
+            font-size: 35px !important;         
+        }
+    }
+
+    p.post{
+        font-size: 30px !important;
+
+        span{
+            color: $light-blue !important;
+            font-weight: 600;
+        }
+
+        @media (max-width: 768px) {
+            font-size: 22px !important;
+        }
+    }
+
+    @media (min-width: 992px) {
+        height: 100vh;
+        min-height: 650px;
+        padding-top: 0;
+        padding-bottom: 0;       
+        h2 {
+        font-size: 48px;
+        }
+    }
+
+    @media (min-width: 1200px) {
+        h2 {
+        font-size: 64px;
+        }
+    }
+}

@@ -1,0 +1,143 @@
+.svg-wrapper {
+  height: 512px;
+  margin: 0 auto;
+  width: 512px;
+
+   @media (max-width: 576px) {
+     width: 300px;
+     height: 300px;
+   }
+}
+
+.svg-wrapper svg .rocket {
+  animation: rocketHovering 5s infinite;
+}
+
+.svg-wrapper svg .jetstream {
+  animation: streamHovering 5s infinite;
+  opacity: 1;
+}
+
+.svg-wrapper svg .cloud1 {
+  animation: cloudMoving 6s infinite;
+}
+
+.svg-wrapper svg .cloud2 {
+  animation: cloudMoving 4s infinite;
+}
+
+.svg-wrapper svg .cloud3 {
+  animation: cloudMoving 6s infinite;
+}
+
+.svg-wrapper svg .cloud4 {
+  animation: cloudMoving2 4s infinite;
+}
+
+.svg-wrapper svg .cloud5 {
+  animation: cloudMoving 4s infinite;
+}
+
+.svg-wrapper svg .cloud6 {
+  animation: cloudMoving 5s infinite;
+}
+
+.svg-wrapper svg .cloud7 {
+  animation: cloudMoving2 3s infinite;
+}
+
+.svg-wrapper svg .cloud8 {
+  animation: cloudMoving2 5s infinite;
+}
+
+.svg-wrapper svg .cloud9 {
+  animation: cloudMoving2 7s infinite;
+}
+
+.svg-wrapper svg .cloud10 {
+  animation: cloudMoving 4s infinite;
+}
+
+.svg-wrapper svg .cloud11 {
+  animation: cloudMoving 6s infinite;
+}
+
+.svg-wrapper svg .lower-clouds {
+  animation: lowerCloudMoving 5s infinite;
+}
+
+@keyframes rocketHovering {
+  0% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-50px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes streamHovering {
+  0% {
+    fill: $light-blue;
+    transform: translateY(0);
+  }
+
+  50% {
+    fill: wh$light-blue;
+    transform: translateY(-50px);
+  }
+
+  100% {
+    fill: $light-blue;
+    transform: translateY(0);
+  }
+}
+
+@keyframes cloudMoving {
+  0% {
+    transform: translateX(0);
+  }
+
+  50% {
+    fill: $light-blue;
+    transform: translateX(5px);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes lowerCloudMoving {
+  0% {
+    transform: translateX(0);
+  }
+
+  50% {
+    fill: $light-blue;
+    transform: translateX(-4px);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes cloudMoving2 {
+  0% {
+    transform: translateY(0);
+  }
+
+  50% {
+    fill: $light-blue;
+    transform: translateY(6px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}

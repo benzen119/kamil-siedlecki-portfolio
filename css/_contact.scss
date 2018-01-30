@@ -1,0 +1,35 @@
+
+section.contact-section{
+    background: $light-blue;
+    padding: 60px 0 0 0;
+
+    h2{
+        font-size: 26px;
+        font-weight: 400;
+    }
+
+    hr{
+        height: 3px;
+        width: 7%;
+        margin-bottom: 40px;
+    }
+
+    p{
+        font-weight: 400;
+        margin-bottom: 60px;
+    }
+
+    .contact-item{
+        margin-bottom: 40px;
+
+        a.email-form{
+            cursor: pointer;
+        }
+
+        .contact-img{
+            color: $white !important;
+            width: 50px;
+            height: 50px;
+        }
+    }
+}

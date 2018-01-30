@@ -1,0 +1,26 @@
+
+section.about-section{
+    padding: 60px 0 60px 0;
+    //background-image: url('../assets/space-background.svg');
+
+    h2{
+        color: $light-blue;
+        font-size: 26px;
+        font-weight: 400;
+    }
+
+    hr{
+        background: $light-blue;
+        height: 3px;
+        width: 7%;
+    }
+
+    .img-profile{
+        border-radius: 50%;
+        margin-bottom: 30px;
+    }
+
+    p{
+        margin: 40px 0 40px 0;
+    }
+}

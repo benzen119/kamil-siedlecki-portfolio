@@ -1,0 +1,47 @@
+
+section.cv-section{
+    background: transparent;
+    padding: 60px 0 60px 0;
+
+    h2{
+        color: $light-blue;
+        font-size: 26px;
+        font-weight: 400;
+    }
+
+    hr{
+        background: $light-blue;
+        height: 3px;
+        width: 7%;
+    }
+
+    p.show-cv-title{
+        color: $light-blue;
+        text-transform: uppercase;
+        font-size: 22px;
+        font-weight: 400;
+    }
+
+    a.show-cv-link{
+        padding: 15px 90px 15px 90px;
+        border: 4px $light-blue solid;
+        border-radius: 300px;
+        background: $light-blue;
+        color: $white;
+        text-transform: uppercase;
+        font-size: 28px;
+        font-weight: 400;
+        transition: all 0.7s ease;
+
+        &:hover{
+            text-decoration: none !important;
+            background: transparent;
+            color: $light-blue;
+        }
+
+        @media (max-width: 576px) {
+            font-size: 20px;
+            padding: 15px 50px 15px 50px;
+        }
+    }
+}

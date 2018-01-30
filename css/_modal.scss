@@ -1,0 +1,28 @@
+
+.modal-content{
+
+    .modal-header{
+        p{
+            font-weight: 600;
+            font-size: 15px;
+        }
+
+        border-bottom: none !important;
+    }
+
+    .modal-body{
+        margin-top: -30px;
+
+        .message-form{
+            margin-top: 20px;
+
+            label{
+                font-weight: 600;
+            }
+
+            .submit-btn{
+                cursor: pointer;
+            }
+        }
+    }
+}
